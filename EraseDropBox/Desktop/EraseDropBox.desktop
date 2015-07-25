@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=EraseDropBox
+GenericName=EraseDropBox
+Comment=An easy drag and drop file and folders erasing programm using the program wipe.
+Icon=/usr/share/EraseDropBox/Icon/EraseDropBox_Icon.png
+Exec=/usr/bin/EraseDropBox.py
+Terminal=false 
+StartupNotify=true 
+Categories=Application;Utility;

@@ -1,0 +1,47 @@
+style "window"
+{
+  # Ceci montre tous les états possibles d'un bouton. Le seul 
+  # qui ne s'applique pas dans ce cas est l'état "SELECTED".
+  
+  fg[PRELIGHT] = { 0.491, 0.491, 0.491 }
+  bg[PRELIGHT] = { 0.85, 0.85, 0.85 }
+  
+  fg[ACTIVE] = { 0.491, 0.491, 0.491 }
+  bg[ACTIVE] = { 0.85, 0.85, 0.85 }
+  
+  
+  fg[NORMAL] = { 0.491, 0.491, 0.491 }
+  bg[NORMAL] = { 0.85, 0.85, 0.85 }
+  
+  fg[INSENSITIVE] = { 0.491, 0.491, 0.491 }
+  bg[INSENSITIVE] = { 0.85, 0.85, 0.85 }
+  
+  
+  fg[SELECTED] = { 0.491, 0.491, 0.491 }
+  bg[SELECTED] = { 0.85, 0.85, 0.85 }
+}
+
+style "tooltips"
+{
+  # Ceci montre tous les états possibles d'un bouton. Le seul 
+  # qui ne s'applique pas dans ce cas est l'état "SELECTED".
+  
+  fg[PRELIGHT] = { 1.0, 1.0, 1.0 }
+  bg[PRELIGHT] = { 0.4, 0.4, 0.4 }
+  
+  fg[ACTIVE] = { 1.0, 1.0, 1.0 }
+  bg[ACTIVE] = { 0.4, 0.4, 0.4 }
+  
+  
+  fg[NORMAL] = { 1.0, 1.0, 1.0 }
+  bg[NORMAL] = { 0.4, 0.4, 0.4 }
+  
+  fg[INSENSITIVE] = { 1.0, 1.0, 1.0 }
+  bg[INSENSITIVE] = { 0.4, 0.4, 0.4 }
+  
+  
+  fg[SELECTED] = { 1.0, 1.0, 1.0 }
+  bg[SELECTED] = { 0.4, 0.4, 0.4 }
+}
+
+widget_class "GtkTooltip" style "tooltips"
